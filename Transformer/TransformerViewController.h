@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TransformerViewController : UIViewController
+@interface TransformerViewController : UIViewController <UIGestureRecognizerDelegate>
 
 @end

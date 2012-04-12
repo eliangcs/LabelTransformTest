@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE645BC91535A76C0075ED0F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE645BC81535A76C0075ED0F /* QuartzCore.framework */; };
 		CE866BF01534552E00629265 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE866BEF1534552E00629265 /* UIKit.framework */; };
 		CE866BF21534552E00629265 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE866BF11534552E00629265 /* Foundation.framework */; };
 		CE866BF41534552E00629265 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE866BF31534552E00629265 /* CoreGraphics.framework */; };
@@ -18,18 +19,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE645BC61535A7350075ED0F /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		CE645BC81535A76C0075ED0F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		CE866BEB1534552E00629265 /* Transformer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Transformer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE866BEF1534552E00629265 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CE866BF11534552E00629265 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CE866BF31534552E00629265 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		CE866BF71534552E00629265 /* Transformer-Info.plist */ = {isa = PBXFileReference; path = "Transformer-Info.plist"; sourceTree = "<group>"; };
+		CE866BF71534552E00629265 /* Transformer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Transformer-Info.plist"; sourceTree = "<group>"; };
 		CE866BF91534552F00629265 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE866BFB1534552F00629265 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CE866BFD1534552F00629265 /* Transformer-Prefix.pch */ = {isa = PBXFileReference; path = "Transformer-Prefix.pch"; sourceTree = "<group>"; };
-		CE866BFE1534552F00629265 /* TransformerAppDelegate.h */ = {isa = PBXFileReference; path = TransformerAppDelegate.h; sourceTree = "<group>"; };
+		CE866BFD1534552F00629265 /* Transformer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Transformer-Prefix.pch"; sourceTree = "<group>"; };
+		CE866BFE1534552F00629265 /* TransformerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransformerAppDelegate.h; sourceTree = "<group>"; };
 		CE866BFF1534552F00629265 /* TransformerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransformerAppDelegate.m; sourceTree = "<group>"; };
 		CE866C021534552F00629265 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		CE866C041534552F00629265 /* TransformerViewController.h */ = {isa = PBXFileReference; path = TransformerViewController.h; sourceTree = "<group>"; };
+		CE866C041534552F00629265 /* TransformerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransformerViewController.h; sourceTree = "<group>"; };
 		CE866C051534552F00629265 /* TransformerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransformerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -38,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE645BC91535A76C0075ED0F /* QuartzCore.framework in Frameworks */,
 				CE866BF01534552E00629265 /* UIKit.framework in Frameworks */,
 				CE866BF21534552E00629265 /* Foundation.framework in Frameworks */,
 				CE866BF41534552E00629265 /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +54,8 @@
 		CE866BE01534552E00629265 = {
 			isa = PBXGroup;
 			children = (
+				CE645BC81535A76C0075ED0F /* QuartzCore.framework */,
+				CE645BC61535A7350075ED0F /* CoreFoundation.framework */,
 				CE866BF51534552E00629265 /* Transformer */,
 				CE866BEE1534552E00629265 /* Frameworks */,
 				CE866BEC1534552E00629265 /* Products */,
@@ -275,6 +281,7 @@
 				CE866C0B1534552F00629265 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
